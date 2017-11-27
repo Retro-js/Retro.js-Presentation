@@ -44,7 +44,7 @@ body {
 body {
   position: relative;
   line-height: 1;
-  background-color: #fff;
+  background-color: #000;
   color: #000; }
 
 /*********************************************
@@ -426,7 +426,7 @@ body {
   bottom: 0;
   left: 0;
   z-index: 10;
-  background-color: rgba(0, 0, 0, 0.2);
+  background-color: rgba(0, 0, 0, 0);
   color: #fff; }
 
 .reveal .progress:after {
@@ -1553,3 +1553,21 @@ body {
 
 .zoomed .reveal .roll span:after {
   visibility: hidden; }
+
+
+/*********************************************
+ * CUSTOM FONTS
+ *********************************************/
+
+@font-face {
+	font-family: 'computer_font';
+	src: url('/assets/computer_font.ttf');
+}
+
+.title{
+	text-align: center;
+	font: 3.5em "computer_font";
+	padding-top: 20px;
+	padding-bottom: 20px;
+	color: white;
+}
